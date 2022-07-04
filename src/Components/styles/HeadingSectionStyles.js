@@ -1,0 +1,62 @@
+export default {
+  HeadingSection: {
+    height: "800px",
+    overflow: "hidden !important",
+    boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.3)",
+    zIndex: "1",
+    padding: "0",
+    background: "rgba(0,0,0,0)",
+  },
+  HeadingLogo: {
+    position: "absolute",
+    height: "15%",
+    display: "flex",
+    marginLeft: "10%",
+    marginTop: "2%",
+  },
+  shapesContainer: {
+    position: "absolute",
+    top: "0",
+    left: "0",
+    right: "0",
+    bottom: "0",
+    margin: "0",
+    padding: "0",
+    boxSizing: "border-box",
+  },
+  bgShape: {
+    position: "absolute",
+    height: "190%",
+    width: "100%",
+    float: "right",
+    display: "block",
+    borderRadius: "120px",
+    background:
+      "linear-gradient(to right top, #1960ff, #0077ff, #008aff, #009cff, #00acff, #09b6ff, #23bffe, #3ac8fd, #41cefd, #4ad4fc, #54dafc, #5fe0fb)",
+    bottom: "0",
+    right: "0",
+    transform: "translate(35%, -28%) rotate(-35deg)",
+    zIndex: "0",
+  },
+  thumbnail: {
+    position: "relative",
+    marginTop: "8rem",
+    marginLeft: "1rem",
+    width: "450px",
+    height: "650px",
+  },
+  HeadingParagraphContainer: {
+    position: "relative",
+    marginTop: "5rem",
+    right: "8rem",
+  },
+  StoreButtonsContainer: {
+    display: "flex !important",
+  },
+  GooglePlayButton: {
+    position: "absolute",
+    display: "flex",
+    maxWidth: "250px",
+    height: "86.3833px",
+  },
+};
