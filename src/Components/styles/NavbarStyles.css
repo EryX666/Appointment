@@ -1,26 +1,80 @@
+.navbar {
+	position: absolute;
+	width: 99vw;
+	z-index: 999;
+	background: transparent;
+}
+.navbarScroll {
+	width: 99vw;
+	height: 5vh;
+	z-index: 999;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	background: linear-gradient(
+		to right top,
+		#1960ff,
+		#0077ff,
+		#008aff,
+		#009cff,
+		#00acff,
+		#09b6ff,
+		#23bffe,
+		#3ac8fd,
+		#41cefd,
+		#4ad4fc,
+		#54dafc,
+		#5fe0fb
+	);
+	transition: height 3s linear;
+}
+.navbarLogo {
+	margin-left: 5rem;
+}
+.navbarLinksContainer {
+	margin-left: 5rem;
+	align-items: center;
+	color: #fff !important;
+	text-decoration: none !important;
+}
+.navbarLink {
+	font-size: 150%;
+	width: 100%;
+	height: 100%;
+	white-space: nowrap;
+	text-decoration: none !important;
+	color: #fff !important;
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
+.navbarLink:hover {
+	color: rgba(255, 255, 255, 0.75);
+}
+
 .navlink a {
-  position: relative;
+	position: relative;
 }
 
 .navlink a::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: -2px;
-  left: 0;
-  background-color: white;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out 0s;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: -2px;
+	left: 0;
+	background-color: white;
+	visibility: hidden;
+	transform: scaleX(0);
+	transition: all 0.3s ease-in-out 0s;
 }
 
 .navlink a:hover::before {
-  visibility: visible;
-  transform: scaleX(1);
+	visibility: visible;
+	transform: scaleX(1);
 }
 
 .navlink a:active::before {
-  visibility: visible;
-  transform: scaleX(1);
+	visibility: visible;
+	transform: scaleX(1);
 }
