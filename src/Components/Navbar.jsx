@@ -27,64 +27,69 @@ function Menu() {
 
 			<Container>
 				<Nav className="mr-auto">
-					<Nav.Link bsPrefix={`navbarLinksContainer navlink`} href="#">
+					<Nav.Link
+						bsPrefix={`navbarLinksContainer navlink`}
+						href="#">
 						<Link
 							className="navbarLink"
 							to="HeadingSection"
 							spy={true}
 							smooth={true}
 							offset={0}
-							duration={500}
-						>
+							duration={500}>
 							Home
 						</Link>
 					</Nav.Link>
-					<Nav.Link bsPrefix={`navbarLinksContainer navlink`} href="#">
+					<Nav.Link
+						bsPrefix={`navbarLinksContainer navlink`}
+						href="#">
 						<Link
 							className="navbarLink"
 							to="FeatureSection"
 							spy={true}
 							smooth={true}
 							offset={0}
-							duration={500}
-						>
+							duration={500}>
 							Features
 						</Link>
 					</Nav.Link>
 
-					<Nav.Link bsPrefix={`navbarLinksContainer navlink`} href="#">
+					<Nav.Link
+						bsPrefix={`navbarLinksContainer navlink`}
+						href="#">
 						<Link
 							className="navbarLink"
 							to="InstructionsSection"
 							spy={true}
 							smooth={true}
 							offset={0}
-							duration={500}
-						>
+							duration={500}>
 							How it works?
 						</Link>
 					</Nav.Link>
-					<Nav.Link bsPrefix={`navbarLinksContainer navlink`} href="#">
+					<Nav.Link
+						bsPrefix={`navbarLinksContainer navlink`}
+						href="#">
 						<Link
 							className="navbarLink"
 							to="PhotoSection"
 							spy={true}
 							smooth={true}
 							offset={0}
-							duration={500}
-						>
+							duration={500}>
 							Screenshots
 						</Link>
 					</Nav.Link>
-					<Nav.Link bsPrefix={`navbarLinksContainer navlink`} href="#">
+					<Nav.Link
+						bsPrefix={`navbarLinksContainer navlink`}
+						href="#">
 						<Link
 							className="navbarLink"
 							to="ContactSection"
 							spy={true}
 							smooth={true}
 							offset={0}
-							duration={500}
-						>
+							duration={500}>
 							Contact Us
 						</Link>
 					</Nav.Link>
